@@ -6,8 +6,8 @@ var li;
 var addButton = document.getElementById('add')
 addButton.addEventListener('click', addItem)
 
-var addButton = document.getElementById('remove')
-addButton.addEventListener('click', removeItem)
+var removeButton = document.getElementById('remove')
+removeButton.addEventListener('click', removeItem)
 
 var deleteButton = document.getElementById('removeall')
 deleteButton.addEventListener('click', deleteList)
