@@ -79,14 +79,14 @@ body{
 #container .controls #input:focus {
     outline: 0;
 }
-#container .controls button {
+/*#container .controls button {
     width: 100%;
     background: white;
     border: none;
     height: 30px;
     margin-top: 2px;
     cursor: pointer;
-    color: white;
+    color: white;*/
 
 }
 #container .controls button:focus {
@@ -98,14 +98,35 @@ body{
 #container .controls #add {
     background-color: #2980b9;
     border-radius: 10px;
+    width: 100%;
+   /* background: white;*/
+    border: none;
+    height: 35px;
+    margin-top: 2px;
+    cursor: pointer;
+    color: white;
 }
 #container .controls #remove {
     background-color: #c0392b;
     border-radius: 10px; 
+    width: 50%;
+   /* background: white;*/
+    border: none;
+    height: 40px;
+    margin-top: 2px;
+    cursor: pointer;
+    color: white;
 }
 #container .controls #removeall {
     background-color: red;
     border-radius: 10px;
+    width: 50%;
+   /* background: white;*/
+    border: none;
+    height: 40px;
+    margin-top: 2px;
+    cursor: pointer;
+    color: white;
 }
 #container .mycheck {
     opacity: 1;
