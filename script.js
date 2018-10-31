@@ -66,7 +66,6 @@ function removeItem(){
 function deleteList(){
     li = ul.children
     for (let index = 0; index < li.length; index++){
-        console.log(li[index])
         ul.removeChild(li[index])
     }
 }
